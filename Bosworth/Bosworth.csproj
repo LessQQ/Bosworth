@@ -50,6 +50,7 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -81,6 +82,33 @@
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="Document.cs" />
+    <Compile Include="Nott\Nottingham\NottGame\NottCharacterTemplates.cs" />
+    <Compile Include="Nott\Nottingham\NottGame\NottCharacter.cs" />
+    <Compile Include="Nott\Nottingham\NottGame\NottJSON.cs" />
+    <Compile Include="Nott\Nottingham\NottGame\NottCard.cs" />
+    <Compile Include="Nott\Nottingham\NottGame\NottDice.cs" />
+    <Compile Include="Nott\Nottingham\NottGame\NottTalents.cs" />
+    <Compile Include="Nott\Nottingham\NottGame\NottSpells.cs" />
+    <Compile Include="Nott\Nottingham\NottGame\NottCharacterManager.cs" />
+    <Compile Include="Nott\Nottingham\NottCore\NottIO.cs" />
+    <Compile Include="Nott\Nottingham\NottCore\NottNetwork.cs" />
+    <Compile Include="Nott\Nottingham\NottCore\NottDebug.cs" />
+    <Compile Include="Nott\Nottingham\NottCore\NottMisc.cs" />
+    <Compile Include="Nott\Nottingham\Shire\Shire.cs" />
+    <Compile Include="Nott\Nottingham\Shire\ShireType.cs" />
+    <Compile Include="Nott\Nottingham\Shire\ShireMemory.cs" />
+    <Compile Include="Nott\Nottingham\Shire\ShireEncrypt.cs" />
+    <Compile Include="Nott\Nottingham\Shire\ShireDB.cs" />
+    <Compile Include="Nott\Nottingham\NottData\NottBeauford.cs" />
+    <Compile Include="Nott\Nottingham\NottData\NottIndex.cs" />
+    <Compile Include="Nott\Nottingham\NottData\NottTalkData.cs" />
+    <Compile Include="Nott\Nottingham\NottData\NottHashFile.cs" />
+    <Compile Include="Nott\Nottingham\NottData\NottGameData.cs" />
+    <Compile Include="Nott\Nottingham\NottSecure\Beaufort.cs" />
+    <Compile Include="Nott\Nottingham\NottSecure\Manager.cs" />
+    <Compile Include="Nott\Nottingham\NottSecure\Crypto.cs" />
+    <Compile Include="Nott\Nottingham\NottSecure\Premboke.cs" />
+    <Compile Include="BosworthDocument.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />
